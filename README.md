@@ -36,5 +36,5 @@ cat myfile.tar | docker import - myalpine:v12
 docker history myalpine:v12
 docker login -u <docker_hub_account> -p <password>
 docker image tag myalpine:v12 <docker_hub_account>/myalpine:v12
-docker push <docker_hub_account>/myalpine
+docker push <docker_hub_account>/myalpine:v12
 ```
